@@ -1,0 +1,26 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  background: #efefef;
+  color: #000;
+  font-family: "Segoe UI", Tahoma, "Nirmala UI", "Noto Sans Devanagari", Arial, sans-serif;
+  font-size: 12px;
+}
+
+button:focus-visible,
+input:focus-visible,
+select:focus-visible,
+textarea:focus-visible {
+  outline: 2px solid #0067c0;
+  outline-offset: -1px;
+}
